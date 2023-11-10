@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Orange HRM Custom Keyword</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>38ee498c-59fb-4706-bb9a-f5c97762d355</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8723d4a5-8d6c-4ac1-ae6b-cabe6a20aa0d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>47b3930a-fc0c-4c34-a1cf-fd7ec91ca4d1</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>89e324b2-b6c5-4b83-a46b-b3ed69516715</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'JB2'</defaultValue>
+      <description></description>
+      <id>8723d4a5-8d6c-4ac1-ae6b-cabe6a20aa0d</id>
+      <masked>false</masked>
+      <name>jobTitle</name>
+   </variable>
+   <variable>
+      <defaultValue>'Deskripsi rawak'</defaultValue>
+      <description></description>
+      <id>47b3930a-fc0c-4c34-a1cf-fd7ec91ca4d1</id>
+      <masked>false</masked>
+      <name>jobDescription</name>
+   </variable>
+   <variable>
+      <defaultValue>'nota kaki'</defaultValue>
+      <description></description>
+      <id>89e324b2-b6c5-4b83-a46b-b3ed69516715</id>
+      <masked>false</masked>
+      <name>note</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkpoint>
+   <description></description>
+   <name>VerifyTestData1</name>
+   <tag></tag>
+   <source-info>
+      <is-from-test-data>true</is-from-test-data>
+      <source-url>Data Files/Day 06 - Training Day/TestData1</source-url>
+   </source-info>
+   <taken-date>2023-11-10T10:18:56.284</taken-date>
+   <column-names>
+      <column-name>username</column-name>
+      <column-name>password</column-name>
+      <column-name>jobTitle</column-name>
+      <column-name>jobDescription</column-name>
+      <column-name>note</column-name>
+   </column-names>
+   <checkpoint-data><![CDATA[[
+  [
+    {
+      "value": "Admin",
+      "checked": true
+    },
+    {
+      "value": "admin123",
+      "checked": true
+    },
+    {
+      "value": "Pentadbir",
+      "checked": true
+    },
+    {
+      "value": "desc 1",
+      "checked": true
+    },
+    {
+      "value": "nota kaki",
+      "checked": true
+    }
+  ],
+  [
+    {
+      "checked": true
+    },
+    {
+      "checked": true
+    },
+    {
+      "value": "Kerani",
+      "checked": true
+    },
+    {
+      "value": "desc 2",
+      "checked": true
+    },
+    {
+      "value": "nota kaki",
+      "checked": true
+    }
+  ],
+  [
+    {
+      "checked": true
+    },
+    {
+      "checked": true
+    },
+    {
+      "value": "Pengarah",
+      "checked": true
+    },
+    {
+      "value": "desc 4",
+      "checked": true
+    },
+    {
+      "value": "nota kaki",
+      "checked": true
+    }
+  ]
+]]]></checkpoint-data>
+</checkpoint>

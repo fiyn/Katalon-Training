@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>testing Parameterization</description>
+   <name>Test_Case_Parameterization</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3191082c-5abd-4827-954d-cb5c9cde4d7f</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b815e67d-a5e4-40fb-8a95-ac428f9b6012</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'https://www.google.com/search?q=test&amp;sca_esv=578704763&amp;sxsrf=AM9HkKlLcoVlS4P1cqt3TNRuBRbUdj4DAQ%3A1698892257806&amp;source=hp&amp;ei=4QlDZZDtLbrf1e8P6vGCyAw&amp;iflsig=AO6bgOgAAAAAZUMX8XM2blnqQfJ3wrMwznUZ9Dh0ZR0l&amp;ved=0ahUKEwjQ4aPsoqSCAxW6b_UHHeq4AMkQ4dUDCAo&amp;uact=5&amp;oq=test&amp;gs_lp=Egdnd3Mtd2l6IgR0ZXN0Mg4QABiKBRixAxiDARiRAjIOEAAYigUYsQMYgwEYkQIyCxAAGIAEGLEDGIMBMgsQABiABBixAxiDATILEAAYgAQYsQMYgwEyCxAAGIAEGLEDGIMBMggQABiABBixAzIFEAAYgAQyBRAAGIAEMggQABiABBixA0j1D1CYBVjYCHABeACQAQCYAbECoAHxBqoBBzEuMS4wLjK4AQPIAQD4AQGoAgrCAgcQIxjqAhgnwgIHEC4Y6gIYJ8ICERAuGIAEGLEDGIMBGMcBGNEDwgIOEC4YgAQYsQMYxwEY0QPCAggQABiKBRiRAsICCxAAGIoFGLEDGIMB&amp;sclient=gws-wiz'</defaultValue>
+      <description>Specify URL Address</description>
+      <id>b815e67d-a5e4-40fb-8a95-ac428f9b6012</id>
+      <masked>false</masked>
+      <name>urlAddress</name>
+   </variable>
+</TestCaseEntity>

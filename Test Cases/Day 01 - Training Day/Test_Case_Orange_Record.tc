@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Orange - test encryption</description>
+   <name>Test_Case_Orange_Record</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dea4cb2f-2058-40c3-926e-b86cc8dee455</testCaseGuid>
+</TestCaseEntity>

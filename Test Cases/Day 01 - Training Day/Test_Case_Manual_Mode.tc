@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Manual Mode</description>
+   <name>Test_Case_Manual_Mode</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>52f093a5-b1ed-466b-890f-af90f5eead50</testCaseGuid>
+</TestCaseEntity>

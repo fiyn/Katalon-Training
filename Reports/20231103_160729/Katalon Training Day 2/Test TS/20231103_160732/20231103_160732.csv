@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test TS,,,,2023-11-03 16:11:22,2023-11-03 16:11:29,7.096s,FAILED
+,,,,,,,
+Test Cases/Day 02 - Training Day/Exercise 1/TC01 - Login Functionality,,Test Login Functionality,,2023-11-03 16:11:25,2023-11-03 16:11:25,0.213s,FAILED
+"openBrowser("""")",,,,2023-11-03 16:11:25,2023-11-03 16:11:25,0.056s,FAILED
+,,,,,,,
+Test Cases/Day 02 - Training Day/Exercise 1/TC02 - Search Functionality,,Test Search Functionality,,2023-11-03 16:11:26,2023-11-03 16:11:26,0.274s,FAILED
+"callTestCase(findTestCase(""Day 02 - Training Day/Exercise 1/TC01 - Login Functionality""), [""url"":""https://cms.demo.katalon.com/"", ""name"":""customer"", ""password"":""fcttOx1e+dws0mP0AWb2uMRTnZbRfS0W""], STOP_ON_FAILURE)",,,,2023-11-03 16:11:26,2023-11-03 16:11:26,0.145s,FAILED
+,,,,,,,
+Test Cases/Day 02 - Training Day/Exercise 1/TC03 - Add to Cart Functionality,,Test Add to Cart Functionality,,2023-11-03 16:11:27,2023-11-03 16:11:27,0.483s,FAILED
+"callTestCase(findTestCase(""Day 02 - Training Day/Exercise 1/TC02 - Search Functionality""), [""url"":""https://cms.demo.katalon.com/"", ""name"":""customer"", ""password"":""fcttOx1e+dws0mP0AWb2uMRTnZbRfS0W"", ""keyword"":""Ninja""], STOP_ON_FAILURE)",,,,2023-11-03 16:11:27,2023-11-03 16:11:27,0.300s,FAILED
+,,,,,,,
+Test Cases/Day 02 - Training Day/Exercise 1/TC04 - Checkout Functionality/TC04_01 - (MY) Checkout Functionality,,Test Checkout Functionality,,2023-11-03 16:11:28,2023-11-03 16:11:28,0.341s,FAILED
+"openBrowser("""")",,,,2023-11-03 16:11:28,2023-11-03 16:11:28,0.032s,FAILED
+,,,,,,,
+Test Cases/Day 02 - Training Day/Exercise 1/TC04 - Checkout Functionality/TC04_02 - (VNM) Checkout Functionality,,Test Checkout Functionality,,2023-11-03 16:11:29,2023-11-03 16:11:29,0.295s,FAILED
+"openBrowser("""")",,,,2023-11-03 16:11:29,2023-11-03 16:11:29,0.028s,FAILED

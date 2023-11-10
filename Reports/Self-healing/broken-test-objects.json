@@ -1,0 +1,104 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Google/Page_test - Google Search/path",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "div.zgAlFc \u003e span.z1asCe.MZy1Rb \u003e svg \u003e path",
+      "proposedLocatorMethod": "CSS",
+      "recoveryMethod": "CSS",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Google/Page_test - Google Search/path_CSS.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Google Manual Mode/Page_Google/input_Delete_btnK (1)",
+      "brokenLocator": "//input[@name\u003d\u0027btnK\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Katalon Demo HerokuApp/Page_CURA Healthcare Service/input_Medicaid_programs",
+      "brokenLocator": "//*[@type \u003d \u0027radio\u0027 and @name \u003d \u0027programs\u0027 and @id \u003d \u0027radio_program_medicaid\u0027 and @value \u003d \u0027$(program)\u0027]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//input[@id\u003d\u0027radio_program_medicaid\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Katalon Demo HerokuApp/Page_CURA Healthcare Service/input_Medicaid_programs_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Katalon Demo HerokuApp/Page_CURA Healthcare Service/input_Medicare_programs",
+      "brokenLocator": "//*[@type \u003d \u0027radio\u0027 and @id \u003d \u0027radio_program_medicare\u0027 and @value \u003d \u0027$(program)\u0027]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//input[@id\u003d\u0027radio_program_medicare\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Katalon Demo HerokuApp/Page_CURA Healthcare Service/input_Medicare_programs_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Katalon Shop (Ecommerce)/Page_Checkout  Katalon Shop/input__billing_state",
+      "brokenLocator": "//input[@id\u003d\u0027billing_state\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "#billing_state",
+      "proposedLocatorMethod": "CSS",
+      "recoveryMethod": "CSS",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Katalon Shop (Ecommerce)/Page_Checkout  Katalon Shop/input__billing_state_CSS.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Katalon Shop (Ecommerce)/Page_Checkout  Katalon Shop/input__select2-search__field",
+      "brokenLocator": "(//input[@type\u003d\u0027text\u0027])[16]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input[@type \u003d \u0027text\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Katalon Shop (Ecommerce)/Page_Checkout  Katalon Shop/Page_Checkout  Katalon Shop/li_Selangor",
+      "brokenLocator": "//li[@id\u003d\u0027select2-billing_state-result-uzb0-SGR\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//ul[@id\u003d\u0027select2-billing_state-results\u0027]/li",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Katalon Shop (Ecommerce)/Page_Checkout  Katalon Shop/Page_Checkout  Katalon Shop/li_Selangor_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Katalon Shop (Ecommerce)/Page_Checkout  Katalon Shop/Page_Checkout  Katalon Shop/input__select2-search__field",
+      "brokenLocator": "(//input[@type\u003d\u0027text\u0027])[16]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input[@type \u003d \u0027text\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Katalon Shop (Ecommerce)/Page_Checkout  Katalon Shop/Page_Checkout  Katalon Shop/select_Province",
+      "brokenLocator": "//span[@class \u003d \u0027select2-selection__rendered\u0027 and @id \u003d \u0027select2-billing_state-container\u0027 and (text() \u003d \u0027${billingProvince}\u0027 or . \u003d \u0027${billingProvince}\u0027)]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//span[@id\u003d\u0027select2-billing_state-container\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Katalon Shop (Ecommerce)/Page_Checkout  Katalon Shop/Page_Checkout  Katalon Shop/select_Province_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Katalon Shop (Ecommerce)/Page_Checkout  Katalon Shop/Page_Checkout  Katalon Shop/li_stanbul",
+      "brokenLocator": "//li[@class \u003d \u0027select2-results__option select2-results__option--highlighted\u0027 and (text() \u003d \u0027İstanbul\u0027 or . \u003d \u0027İstanbul\u0027)]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Kars\u0027])[2]/preceding::li[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    }
+  ]
+}

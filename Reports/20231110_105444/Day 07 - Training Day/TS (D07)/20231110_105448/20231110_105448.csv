@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS (D07),,,,2023-11-10 10:54:57,2023-11-10 10:55:06,9.018s,FAILED
+,,,,,,,
+Test Cases/Day 07 - Training Day/Orange HRM Login (D07),,,,2023-11-10 10:54:58,2023-11-10 10:55:06,8.412s,FAILED
+"openBrowser("""")",,,,2023-11-10 10:54:58,2023-11-10 10:55:06,7.654s,FAILED

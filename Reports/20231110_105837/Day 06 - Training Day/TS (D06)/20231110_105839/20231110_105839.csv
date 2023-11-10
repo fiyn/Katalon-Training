@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS (D06),,,,2023-11-10 10:58:47,2023-11-10 10:58:58,11.240s,FAILED
+,,,,,,,
+Test Cases/Day 06 - Training Day/Orange HRM Add Skills (D06),,,,2023-11-10 10:58:48,2023-11-10 10:58:54,5.876s,FAILED
+"callTestCase(findTestCase(""Day 05 - Training Day/Orange HRM Login (D05)""), [""username"":username, ""password"":""hUKwJTbofgPU9eVlw/CnDQ==""], STOP_ON_FAILURE)",,,,2023-11-10 10:58:48,2023-11-10 10:58:54,5.202s,FAILED
+,,,,,,,
+Test Cases/Day 06 - Training Day/Orange HRM Add Skills (D06),,,,2023-11-10 10:58:54,2023-11-10 10:58:56,2.303s,FAILED
+"callTestCase(findTestCase(""Day 05 - Training Day/Orange HRM Login (D05)""), [""username"":username, ""password"":""hUKwJTbofgPU9eVlw/CnDQ==""], STOP_ON_FAILURE)",,,,2023-11-10 10:58:54,2023-11-10 10:58:56,2.132s,FAILED
+,,,,,,,
+Test Cases/Day 06 - Training Day/Orange HRM Add Skills (D06),,,,2023-11-10 10:58:56,2023-11-10 10:58:58,2.144s,FAILED
+"callTestCase(findTestCase(""Day 05 - Training Day/Orange HRM Login (D05)""), [""username"":username, ""password"":""hUKwJTbofgPU9eVlw/CnDQ==""], STOP_ON_FAILURE)",,,,2023-11-10 10:58:56,2023-11-10 10:58:58,2.019s,FAILED

@@ -1,0 +1,100 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test TS,Chrome 119.0.6045.105,,,2023-11-05 13:58:49,2023-11-05 14:01:27,2m - 38.540s,PASSED
+,,,,,,,
+Test Cases/Day 02 - Training Day/Exercise 1/TC01 - Login Functionality,Chrome 119.0.6045.105,Test Login Functionality,,2023-11-05 13:58:50,2023-11-05 13:59:26,35.942s,PASSED
+"openBrowser("""")",Chrome 119.0.6045.105,,,2023-11-05 13:58:53,2023-11-05 13:59:04,10.905s,PASSED
+navigateToUrl(url),Chrome 119.0.6045.105,,,2023-11-05 13:59:04,2023-11-05 13:59:14,10.481s,PASSED
+maximizeWindow(),Chrome 119.0.6045.105,,,2023-11-05 13:59:14,2023-11-05 13:59:15,0.308s,PASSED
+"click(findTestObject(""Object Repository/Katalon Shop (Ecommerce)/Page_Katalon Shop  Katalon Ecommerce/a_My account""))",Chrome 119.0.6045.105,,,2023-11-05 13:59:15,2023-11-05 13:59:18,3.833s,PASSED
+"setText(findTestObject(""Object Repository/Katalon Shop (Ecommerce)/Page_My account  Katalon Shop/input__username""), username)",Chrome 119.0.6045.105,,,2023-11-05 13:59:18,2023-11-05 13:59:21,2.542s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Katalon Shop (Ecommerce)/Page_My account  Katalon Shop/input__password""), password)",Chrome 119.0.6045.105,,,2023-11-05 13:59:21,2023-11-05 13:59:21,0.489s,PASSED
+"click(findTestObject(""Object Repository/Katalon Shop (Ecommerce)/Page_My account  Katalon Shop/input__rememberme""))",Chrome 119.0.6045.105,,,2023-11-05 13:59:21,2023-11-05 13:59:22,0.956s,PASSED
+"click(findTestObject(""Object Repository/Katalon Shop (Ecommerce)/Page_My account  Katalon Shop/button_Log in""))",Chrome 119.0.6045.105,,,2023-11-05 13:59:22,2023-11-05 13:59:26,3.696s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Katalon Shop (Ecommerce)/Page_My account  Katalon Shop/p_Hello KatalonLover (not KatalonLover Log out)""), 0)",Chrome 119.0.6045.105,,,2023-11-05 13:59:26,2023-11-05 13:59:26,0.272s,PASSED
+,,,,,,,
+Test Cases/Day 02 - Training Day/Exercise 1/TC02 - Search Functionality,Chrome 119.0.6045.105,Test Search Functionality,,2023-11-05 13:59:26,2023-11-05 13:59:55,28.715s,PASSED
+"callTestCase(findTestCase(""Day 02 - Training Day/Exercise 1/TC01 - Login Functionality""), [""url"":""https://cms.demo.katalon.com/"", ""name"":""customer"", ""password"":""fcttOx1e+dws0mP0AWb2uMRTnZbRfS0W""], STOP_ON_FAILURE)",Chrome 119.0.6045.105,,,2023-11-05 13:59:28,2023-11-05 13:59:50,21.929s,PASSED
+"setText(findTestObject(""Object Repository/Katalon Shop (Ecommerce)/Page_My account  Katalon Shop/input_Search for_s""), keyword)",Chrome 119.0.6045.105,,,2023-11-05 13:59:50,2023-11-05 13:59:50,0.451s,PASSED
+"click(findTestObject(""Object Repository/Katalon Shop (Ecommerce)/Page_My account  Katalon Shop/button_Search""))",Chrome 119.0.6045.105,,,2023-11-05 13:59:50,2023-11-05 13:59:55,4.658s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Katalon Shop (Ecommerce)/Page_Search Results for Ninja  Katalon Shop/h1_Search Results for Ninja""), 0)",Chrome 119.0.6045.105,,,2023-11-05 13:59:55,2023-11-05 13:59:55,0.173s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Katalon Shop (Ecommerce)/Page_Search Results for Ninja  Katalon Shop/span_Ninja""), 0)",Chrome 119.0.6045.105,,,2023-11-05 13:59:55,2023-11-05 13:59:55,0.135s,PASSED
+,,,,,,,
+Test Cases/Day 02 - Training Day/Exercise 1/TC03 - Add to Cart Functionality,Chrome 119.0.6045.105,Test Add to Cart Functionality,,2023-11-05 13:59:55,2023-11-05 14:00:16,20.725s,PASSED
+"callTestCase(findTestCase(""Day 02 - Training Day/Exercise 1/TC02 - Search Functionality""), [""url"":""https://cms.demo.katalon.com/"", ""name"":""customer"", ""password"":""fcttOx1e+dws0mP0AWb2uMRTnZbRfS0W"", ""keyword"":""Ninja""], STOP_ON_FAILURE)",Chrome 119.0.6045.105,,,2023-11-05 13:59:56,2023-11-05 14:00:12,16.414s,PASSED
+"switchToWindowTitle(""Search Results for “Ninja” – Katalon Shop"")",Chrome 119.0.6045.105,,,2023-11-05 14:00:12,2023-11-05 14:00:12,0.094s,PASSED
+"click(findTestObject(""Object Repository/Katalon Shop (Ecommerce)/Page_Search Results for Ninja  Katalon Shop/a_Shop""))",Chrome 119.0.6045.105,,,2023-11-05 14:00:12,2023-11-05 14:00:13,1.101s,PASSED
+"click(findTestObject(""Object Repository/Katalon Shop (Ecommerce)/Page_Katalon Shop  Katalon Ecommerce/a_Add to cart""))",Chrome 119.0.6045.105,,,2023-11-05 14:00:13,2023-11-05 14:00:13,0.165s,PASSED
+"click(findTestObject(""Object Repository/Katalon Shop (Ecommerce)/Page_Katalon Shop  Katalon Ecommerce/a_View cart""))",Chrome 119.0.6045.105,,,2023-11-05 14:00:13,2023-11-05 14:00:16,2.310s,PASSED
+"verifyElementPresent(findTestObject(""Katalon Shop (Ecommerce)/Page_Cart  Katalon Shop/Page_Cart  Katalon Shop/img__attachment-woocommerce_thumbnail size-woocommerce_thumbnail""), 0)",Chrome 119.0.6045.105,,,2023-11-05 14:00:16,2023-11-05 14:00:16,0.111s,PASSED
+,,,,,,,
+Test Cases/Day 02 - Training Day/Exercise 1/TC04 - Checkout Functionality/TC04_01 - (MY) Checkout Functionality,Chrome 119.0.6045.105,Test Checkout Functionality,,2023-11-05 14:00:31,2023-11-05 14:00:50,18.786s,PASSED
+"openBrowser("""")",Chrome 119.0.6045.105,,,2023-11-05 14:00:32,2023-11-05 14:00:34,1.981s,PASSED
+"navigateToUrl(""https://cms.demo.katalon.com/"")",Chrome 119.0.6045.105,,,2023-11-05 14:00:34,2023-11-05 14:00:39,5.484s,PASSED
+"switchToWindowTitle(""Katalon Shop – Katalon Ecommerce"")",Chrome 119.0.6045.105,,,2023-11-05 14:00:39,2023-11-05 14:00:39,0.023s,PASSED
+"click(findTestObject(""Object Repository/Katalon Shop (Ecommerce)/Page_Katalon Shop  Katalon Ecommerce/a_Add to cart (1)""))",Chrome 119.0.6045.105,,,2023-11-05 14:00:39,2023-11-05 14:00:39,0.159s,PASSED
+"click(findTestObject(""Object Repository/Katalon Shop (Ecommerce)/Page_Katalon Shop  Katalon Ecommerce/a_View cart (1)""))",Chrome 119.0.6045.105,,,2023-11-05 14:00:39,2023-11-05 14:00:41,2.006s,PASSED
+"click(findTestObject(""Object Repository/Katalon Shop (Ecommerce)/Page_Cart  Katalon Shop/a_Proceed to checkout""))",Chrome 119.0.6045.105,,,2023-11-05 14:00:41,2023-11-05 14:00:43,1.649s,PASSED
+"setText(findTestObject(""Object Repository/Katalon Shop (Ecommerce)/Page_Checkout  Katalon Shop/input__billing_first_name""), billingFirstName)",Chrome 119.0.6045.105,,,2023-11-05 14:00:43,2023-11-05 14:00:43,0.268s,PASSED
+"setText(findTestObject(""Object Repository/Katalon Shop (Ecommerce)/Page_Checkout  Katalon Shop/input__billing_last_name""), billingLastName)",Chrome 119.0.6045.105,,,2023-11-05 14:00:43,2023-11-05 14:00:44,0.237s,PASSED
+"setText(findTestObject(""Object Repository/Katalon Shop (Ecommerce)/Page_Checkout  Katalon Shop/input_(optional)_billing_company""), biliingCompany)",Chrome 119.0.6045.105,,,2023-11-05 14:00:44,2023-11-05 14:00:44,0.258s,PASSED
+"click(findTestObject(""Object Repository/Katalon Shop (Ecommerce)/Page_Checkout  Katalon Shop/Page_Checkout  Katalon Shop/span_Malaysia""))",Chrome 119.0.6045.105,,,2023-11-05 14:00:44,2023-11-05 14:00:44,0.197s,PASSED
+"setText(findTestObject(""Katalon Shop (Ecommerce)/Page_Checkout  Katalon Shop/input__select2-search__field""), country)",Chrome 119.0.6045.105,,,2023-11-05 14:00:44,2023-11-05 14:00:44,0.304s,PASSED
+"sendKeys(findTestObject(""Katalon Shop (Ecommerce)/Page_Checkout  Katalon Shop/Page_Checkout  Katalon Shop/input__select2-search__field""), Keys.chord(ENTER))",Chrome 119.0.6045.105,,,2023-11-05 14:00:44,2023-11-05 14:00:45,0.152s,PASSED
+"setText(findTestObject(""Object Repository/Katalon Shop (Ecommerce)/Page_Checkout  Katalon Shop/input__billing_address_1""), billingAddress)",Chrome 119.0.6045.105,,,2023-11-05 14:00:45,2023-11-05 14:00:45,0.304s,PASSED
+"setText(findTestObject(""Object Repository/Katalon Shop (Ecommerce)/Page_Checkout  Katalon Shop/input__billing_city""), billingTown)",Chrome 119.0.6045.105,,,2023-11-05 14:00:45,2023-11-05 14:00:45,0.281s,PASSED
+"click(findTestObject(""Katalon Shop (Ecommerce)/Page_Checkout  Katalon Shop/Page_Checkout  Katalon Shop/span_Selangor""))",Chrome 119.0.6045.105,,,2023-11-05 14:00:45,2023-11-05 14:00:45,0.173s,PASSED
+"setText(findTestObject(""Katalon Shop (Ecommerce)/Page_Checkout  Katalon Shop/input__select2-search__field""), billingState)",Chrome 119.0.6045.105,,,2023-11-05 14:00:45,2023-11-05 14:00:46,0.268s,PASSED
+"sendKeys(findTestObject(""Katalon Shop (Ecommerce)/Page_Checkout  Katalon Shop/Page_Checkout  Katalon Shop/input__select2-search__field""), Keys.chord(ENTER))",Chrome 119.0.6045.105,,,2023-11-05 14:00:46,2023-11-05 14:00:46,0.143s,PASSED
+"setText(findTestObject(""Object Repository/Katalon Shop (Ecommerce)/Page_Checkout  Katalon Shop/input__billing_postcode""), billingPostcode)",Chrome 119.0.6045.105,,,2023-11-05 14:00:46,2023-11-05 14:00:46,0.242s,PASSED
+"setText(findTestObject(""Object Repository/Katalon Shop (Ecommerce)/Page_Checkout  Katalon Shop/input__billing_phone""), billingPhone)",Chrome 119.0.6045.105,,,2023-11-05 14:00:46,2023-11-05 14:00:46,0.257s,PASSED
+"setText(findTestObject(""Object Repository/Katalon Shop (Ecommerce)/Page_Checkout  Katalon Shop/input__billing_email""), billingEmail)",Chrome 119.0.6045.105,,,2023-11-05 14:00:46,2023-11-05 14:00:46,0.284s,PASSED
+"click(findTestObject(""Object Repository/Katalon Shop (Ecommerce)/Page_Checkout  Katalon Shop/button_Place order""))",Chrome 119.0.6045.105,,,2023-11-05 14:00:46,2023-11-05 14:00:47,0.164s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Katalon Shop (Ecommerce)/Page_Checkout  Katalon Shop/h1_Checkout""), 0)",Chrome 119.0.6045.105,,,2023-11-05 14:00:47,2023-11-05 14:00:47,0.121s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Katalon Shop (Ecommerce)/Page_Checkout  Katalon Shop/p_Thank you. Your order has been received""), 0)",Chrome 119.0.6045.105,,,2023-11-05 14:00:47,2023-11-05 14:00:50,3.413s,PASSED
+,,,,,,,
+Test Cases/Day 02 - Training Day/Exercise 1/TC04 - Checkout Functionality/TC04_02 - (VNM) Checkout Functionality,Chrome 119.0.6045.105,Test Checkout Functionality,,2023-11-05 14:00:50,2023-11-05 14:01:08,18.295s,PASSED
+"openBrowser("""")",Chrome 119.0.6045.105,,,2023-11-05 14:00:51,2023-11-05 14:00:53,1.847s,PASSED
+"navigateToUrl(""https://cms.demo.katalon.com/"")",Chrome 119.0.6045.105,,,2023-11-05 14:00:53,2023-11-05 14:00:58,4.639s,PASSED
+"switchToWindowTitle(""Katalon Shop – Katalon Ecommerce"")",Chrome 119.0.6045.105,,,2023-11-05 14:00:58,2023-11-05 14:00:58,0.023s,PASSED
+"click(findTestObject(""Object Repository/Katalon Shop (Ecommerce)/Page_Katalon Shop  Katalon Ecommerce/a_Add to cart (1)""))",Chrome 119.0.6045.105,,,2023-11-05 14:00:58,2023-11-05 14:00:58,0.163s,PASSED
+"click(findTestObject(""Object Repository/Katalon Shop (Ecommerce)/Page_Katalon Shop  Katalon Ecommerce/a_View cart (1)""))",Chrome 119.0.6045.105,,,2023-11-05 14:00:58,2023-11-05 14:01:00,2.073s,PASSED
+"click(findTestObject(""Object Repository/Katalon Shop (Ecommerce)/Page_Cart  Katalon Shop/a_Proceed to checkout""))",Chrome 119.0.6045.105,,,2023-11-05 14:01:00,2023-11-05 14:01:02,1.692s,PASSED
+"setText(findTestObject(""Object Repository/Katalon Shop (Ecommerce)/Page_Checkout  Katalon Shop/input__billing_first_name""), billingFirstName)",Chrome 119.0.6045.105,,,2023-11-05 14:01:02,2023-11-05 14:01:02,0.309s,PASSED
+"setText(findTestObject(""Object Repository/Katalon Shop (Ecommerce)/Page_Checkout  Katalon Shop/input__billing_last_name""), billingLastName)",Chrome 119.0.6045.105,,,2023-11-05 14:01:02,2023-11-05 14:01:02,0.291s,PASSED
+"setText(findTestObject(""Object Repository/Katalon Shop (Ecommerce)/Page_Checkout  Katalon Shop/input_(optional)_billing_company""), biliingCompany)",Chrome 119.0.6045.105,,,2023-11-05 14:01:02,2023-11-05 14:01:03,0.218s,PASSED
+"click(findTestObject(""Object Repository/Katalon Shop (Ecommerce)/Page_Checkout  Katalon Shop/Page_Checkout  Katalon Shop/span_Malaysia""))",Chrome 119.0.6045.105,,,2023-11-05 14:01:03,2023-11-05 14:01:03,0.214s,PASSED
+"setText(findTestObject(""Object Repository/Katalon Shop (Ecommerce)/Page_Checkout  Katalon Shop/input__select2-search__field""), country)",Chrome 119.0.6045.105,,,2023-11-05 14:01:03,2023-11-05 14:01:03,0.271s,PASSED
+"sendKeys(findTestObject(""Katalon Shop (Ecommerce)/Page_Checkout  Katalon Shop/Page_Checkout  Katalon Shop/input__select2-search__field""), Keys.chord(ENTER))",Chrome 119.0.6045.105,,,2023-11-05 14:01:03,2023-11-05 14:01:03,0.187s,PASSED
+"setText(findTestObject(""Object Repository/Katalon Shop (Ecommerce)/Page_Checkout  Katalon Shop/input__billing_address_1""), billingAddress)",Chrome 119.0.6045.105,,,2023-11-05 14:01:03,2023-11-05 14:01:04,0.324s,PASSED
+"setText(findTestObject(""Object Repository/Katalon Shop (Ecommerce)/Page_Checkout  Katalon Shop/input__billing_postcode""), billingPostcode)",Chrome 119.0.6045.105,,,2023-11-05 14:01:04,2023-11-05 14:01:04,0.279s,PASSED
+"setText(findTestObject(""Object Repository/Katalon Shop (Ecommerce)/Page_Checkout  Katalon Shop/input__billing_city""), billingTown)",Chrome 119.0.6045.105,,,2023-11-05 14:01:04,2023-11-05 14:01:04,0.254s,PASSED
+"setText(findTestObject(""Object Repository/Katalon Shop (Ecommerce)/Page_Checkout  Katalon Shop/input__billing_phone""), billingPhone)",Chrome 119.0.6045.105,,,2023-11-05 14:01:04,2023-11-05 14:01:04,0.231s,PASSED
+"setText(findTestObject(""Object Repository/Katalon Shop (Ecommerce)/Page_Checkout  Katalon Shop/input__billing_email""), billingEmail)",Chrome 119.0.6045.105,,,2023-11-05 14:01:04,2023-11-05 14:01:05,0.246s,PASSED
+"click(findTestObject(""Object Repository/Katalon Shop (Ecommerce)/Page_Checkout  Katalon Shop/button_Place order""))",Chrome 119.0.6045.105,,,2023-11-05 14:01:05,2023-11-05 14:01:05,0.171s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Katalon Shop (Ecommerce)/Page_Checkout  Katalon Shop/h1_Checkout""), 0)",Chrome 119.0.6045.105,,,2023-11-05 14:01:05,2023-11-05 14:01:05,0.130s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Katalon Shop (Ecommerce)/Page_Checkout  Katalon Shop/p_Thank you. Your order has been received""), 0)",Chrome 119.0.6045.105,,,2023-11-05 14:01:05,2023-11-05 14:01:08,3.643s,PASSED
+,,,,,,,
+Test Cases/Day 02 - Training Day/Exercise 1/TC04 - Checkout Functionality/TC04_03 - (TR) Checkout Functionality,Chrome 119.0.6045.105,,,2023-11-05 14:01:08,2023-11-05 14:01:27,18.921s,PASSED
+"openBrowser("""")",Chrome 119.0.6045.105,,,2023-11-05 14:01:09,2023-11-05 14:01:11,1.788s,PASSED
+"navigateToUrl(""https://cms.demo.katalon.com/"")",Chrome 119.0.6045.105,,,2023-11-05 14:01:11,2023-11-05 14:01:16,4.708s,PASSED
+"switchToWindowTitle(""Katalon Shop – Katalon Ecommerce"")",Chrome 119.0.6045.105,,,2023-11-05 14:01:16,2023-11-05 14:01:16,0.030s,PASSED
+"click(findTestObject(""Object Repository/Katalon Shop (Ecommerce)/Page_Katalon Shop  Katalon Ecommerce/a_Add to cart (1)""))",Chrome 119.0.6045.105,,,2023-11-05 14:01:16,2023-11-05 14:01:16,0.163s,PASSED
+"click(findTestObject(""Object Repository/Katalon Shop (Ecommerce)/Page_Katalon Shop  Katalon Ecommerce/a_View cart (1)""))",Chrome 119.0.6045.105,,,2023-11-05 14:01:16,2023-11-05 14:01:18,2.049s,PASSED
+"click(findTestObject(""Object Repository/Katalon Shop (Ecommerce)/Page_Cart  Katalon Shop/a_Proceed to checkout""))",Chrome 119.0.6045.105,,,2023-11-05 14:01:18,2023-11-05 14:01:20,1.647s,PASSED
+"setText(findTestObject(""Object Repository/Katalon Shop (Ecommerce)/Page_Checkout  Katalon Shop/input__billing_first_name""), billingFirstName)",Chrome 119.0.6045.105,,,2023-11-05 14:01:20,2023-11-05 14:01:20,0.267s,PASSED
+"setText(findTestObject(""Object Repository/Katalon Shop (Ecommerce)/Page_Checkout  Katalon Shop/input__billing_last_name""), billingLastName)",Chrome 119.0.6045.105,,,2023-11-05 14:01:20,2023-11-05 14:01:20,0.242s,PASSED
+"setText(findTestObject(""Object Repository/Katalon Shop (Ecommerce)/Page_Checkout  Katalon Shop/input_(optional)_billing_company""), biliingCompany)",Chrome 119.0.6045.105,,,2023-11-05 14:01:20,2023-11-05 14:01:21,0.275s,PASSED
+"click(findTestObject(""Object Repository/Katalon Shop (Ecommerce)/Page_Checkout  Katalon Shop/Page_Checkout  Katalon Shop/span_Malaysia""))",Chrome 119.0.6045.105,,,2023-11-05 14:01:21,2023-11-05 14:01:21,0.232s,PASSED
+"setText(findTestObject(""Katalon Shop (Ecommerce)/Page_Checkout  Katalon Shop/input__select2-search__field""), country)",Chrome 119.0.6045.105,,,2023-11-05 14:01:21,2023-11-05 14:01:21,0.305s,PASSED
+"click(findTestObject(""Katalon Shop (Ecommerce)/Page_Checkout  Katalon Shop/li_Vietnam"", [""country"":country]))",Chrome 119.0.6045.105,,,2023-11-05 14:01:21,2023-11-05 14:01:21,0.305s,PASSED
+"setText(findTestObject(""Object Repository/Katalon Shop (Ecommerce)/Page_Checkout  Katalon Shop/input__billing_address_1""), billingAddress)",Chrome 119.0.6045.105,,,2023-11-05 14:01:21,2023-11-05 14:01:22,0.302s,PASSED
+"setText(findTestObject(""Object Repository/Katalon Shop (Ecommerce)/Page_Checkout  Katalon Shop/input__billing_postcode""), billingPostcode)",Chrome 119.0.6045.105,,,2023-11-05 14:01:22,2023-11-05 14:01:22,0.247s,PASSED
+"setText(findTestObject(""Object Repository/Katalon Shop (Ecommerce)/Page_Checkout  Katalon Shop/input__billing_city""), billingTown)",Chrome 119.0.6045.105,,,2023-11-05 14:01:22,2023-11-05 14:01:22,0.282s,PASSED
+"click(findTestObject(""Katalon Shop (Ecommerce)/Page_Checkout  Katalon Shop/Page_Checkout  Katalon Shop/select_Province""))",Chrome 119.0.6045.105,,,2023-11-05 14:01:22,2023-11-05 14:01:22,0.152s,PASSED
+"setText(findTestObject(""Katalon Shop (Ecommerce)/Page_Checkout  Katalon Shop/Page_Checkout  Katalon Shop/input__select2-search__field""), billingProvince)",Chrome 119.0.6045.105,,,2023-11-05 14:01:22,2023-11-05 14:01:23,0.256s,PASSED
+"click(findTestObject(""Katalon Shop (Ecommerce)/Page_Checkout  Katalon Shop/Page_Checkout  Katalon Shop/li_stanbul"", [""billingProvince"":billingProvince]))",Chrome 119.0.6045.105,,,2023-11-05 14:01:23,2023-11-05 14:01:23,0.192s,PASSED
+"setText(findTestObject(""Object Repository/Katalon Shop (Ecommerce)/Page_Checkout  Katalon Shop/input__billing_phone""), billingPhone)",Chrome 119.0.6045.105,,,2023-11-05 14:01:23,2023-11-05 14:01:23,0.237s,PASSED
+"setText(findTestObject(""Object Repository/Katalon Shop (Ecommerce)/Page_Checkout  Katalon Shop/input__billing_email""), billingEmail)",Chrome 119.0.6045.105,,,2023-11-05 14:01:23,2023-11-05 14:01:23,0.282s,PASSED
+"click(findTestObject(""Object Repository/Katalon Shop (Ecommerce)/Page_Checkout  Katalon Shop/button_Place order""))",Chrome 119.0.6045.105,,,2023-11-05 14:01:23,2023-11-05 14:01:24,0.183s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Katalon Shop (Ecommerce)/Page_Checkout  Katalon Shop/h1_Checkout""), 0)",Chrome 119.0.6045.105,,,2023-11-05 14:01:24,2023-11-05 14:01:24,0.139s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Katalon Shop (Ecommerce)/Page_Checkout  Katalon Shop/p_Thank you. Your order has been received""), 0)",Chrome 119.0.6045.105,,,2023-11-05 14:01:24,2023-11-05 14:01:27,3.710s,PASSED

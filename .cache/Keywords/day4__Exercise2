@@ -1,0 +1,31 @@
+{
+  "keywordFileContentHash": "ED2E9FFCAECD8FA92DFDD5E27CF5D9DD",
+  "keywordClasses": [
+    {
+      "name": "day4.Exercise2",
+      "keywordMethods": [
+        {
+          "name": "printSect1",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "printSect2",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "printSect3",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "printSect4",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

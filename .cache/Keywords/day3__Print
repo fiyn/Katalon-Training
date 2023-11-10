@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "A0A50D51058C36E397BA958ABCA1A3C7",
+  "keywordClasses": [
+    {
+      "name": "day3.Print",
+      "keywordMethods": [
+        {
+          "name": "printLoop",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test TS,,,,2023-11-05 13:58:50,2023-11-05 13:59:23,33.473s,FAILED
+,,,,,,,
+Test Cases/Day 02 - Training Day/Exercise 1/TC01 - Login Functionality,,Test Login Functionality,,2023-11-05 13:59:04,2023-11-05 13:59:04,0.505s,FAILED
+"openBrowser("""")",,,,2023-11-05 13:59:04,2023-11-05 13:59:04,0.187s,FAILED
+,,,,,,,
+Test Cases/Day 02 - Training Day/Exercise 1/TC02 - Search Functionality,,Test Search Functionality,,2023-11-05 13:59:06,2023-11-05 13:59:07,0.750s,FAILED
+"callTestCase(findTestCase(""Day 02 - Training Day/Exercise 1/TC01 - Login Functionality""), [""url"":""https://cms.demo.katalon.com/"", ""name"":""customer"", ""password"":""fcttOx1e+dws0mP0AWb2uMRTnZbRfS0W""], STOP_ON_FAILURE)",,,,2023-11-05 13:59:07,2023-11-05 13:59:07,0.352s,FAILED
+,,,,,,,
+Test Cases/Day 02 - Training Day/Exercise 1/TC03 - Add to Cart Functionality,,Test Add to Cart Functionality,,2023-11-05 13:59:10,2023-11-05 13:59:11,1.027s,FAILED
+"callTestCase(findTestCase(""Day 02 - Training Day/Exercise 1/TC02 - Search Functionality""), [""url"":""https://cms.demo.katalon.com/"", ""name"":""customer"", ""password"":""fcttOx1e+dws0mP0AWb2uMRTnZbRfS0W"", ""keyword"":""Ninja""], STOP_ON_FAILURE)",,,,2023-11-05 13:59:10,2023-11-05 13:59:11,0.601s,FAILED
+,,,,,,,
+Test Cases/Day 02 - Training Day/Exercise 1/TC04 - Checkout Functionality/TC04_01 - (MY) Checkout Functionality,,Test Checkout Functionality,,2023-11-05 13:59:14,2023-11-05 13:59:15,0.980s,FAILED
+"openBrowser("""")",,,,2023-11-05 13:59:15,2023-11-05 13:59:15,0.257s,FAILED
+,,,,,,,
+Test Cases/Day 02 - Training Day/Exercise 1/TC04 - Checkout Functionality/TC04_02 - (VNM) Checkout Functionality,,Test Checkout Functionality,,2023-11-05 13:59:18,2023-11-05 13:59:20,2.056s,FAILED
+"openBrowser("""")",,,,2023-11-05 13:59:19,2023-11-05 13:59:20,0.923s,FAILED
+,,,,,,,
+Test Cases/Day 02 - Training Day/Exercise 1/TC04 - Checkout Functionality/TC04_03 - (TR) Checkout Functionality,,,,2023-11-05 13:59:22,2023-11-05 13:59:23,0.760s,FAILED
+"openBrowser("""")",,,,2023-11-05 13:59:23,2023-11-05 13:59:23,0.067s,FAILED

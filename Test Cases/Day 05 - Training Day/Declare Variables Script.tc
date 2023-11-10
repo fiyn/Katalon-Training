@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Declare Variables Script</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>37f12ade-78cc-4585-8e87-741778c257a5</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>041fd365-1d8f-4fc3-9ee4-c8901dbbdb29</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'hahaah test'</defaultValue>
+      <description></description>
+      <id>041fd365-1d8f-4fc3-9ee4-c8901dbbdb29</id>
+      <masked>false</masked>
+      <name>test</name>
+   </variable>
+</TestCaseEntity>

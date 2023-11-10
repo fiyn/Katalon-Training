@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Images_gb_d gb_Da gb_H</name>
+   <tag></tag>
+   <elementGuidId>c4b528b9-4725-4268-aac5-8445749120e2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.gb_d.gb_Da.gb_H</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='gb']/div/div[2]/div[2]/div/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>0e9bd4bd-5dca-42a2-8b7d-424c2318c834</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>gb_d gb_Da gb_H</value>
+      <webElementGuid>7b657aef-9688-45c5-a4f8-54a0f67062c4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>Google Account: Fiy Nafis  
+(alienafis@gmail.com)</value>
+      <webElementGuid>6c024a84-fa2d-4025-9513-07483e464096</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://accounts.google.com/SignOutOptions?hl=en&amp;continue=https://www.google.com/&amp;ec=GBRAmgQ</value>
+      <webElementGuid>6c72e525-642b-4eb1-97c7-6c019fe3a37f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>a75d6696-acc2-4429-a7cc-08fc5dba5767</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>650f6788-be24-4453-9c4c-86f031cc61eb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-expanded</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>d7e132c3-db94-4d6a-b7ef-55c7f6440750</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;gb&quot;)/div[@class=&quot;gb_yd gb_cb gb_nd&quot;]/div[@class=&quot;gb_Sd&quot;]/div[@class=&quot;gb_b gb_v gb_Zf gb_H&quot;]/div[@class=&quot;gb_g gb_bb gb_Zf gb_H&quot;]/a[@class=&quot;gb_d gb_Da gb_H&quot;]</value>
+      <webElementGuid>05799fd8-4072-42df-837e-03971e44a9cd</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='gb']/div/div[2]/div[2]/div/a</value>
+      <webElementGuid>1ac50c1a-0b21-413b-85ee-4f6a83ba371d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Images'])[1]/following::a[2]</value>
+      <webElementGuid>ac1651a7-02c4-49b9-a60b-a654644dd078</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Gmail'])[1]/following::a[3]</value>
+      <webElementGuid>ba4efcf2-1771-4ff7-933e-58ab461fa36f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='×'])[1]/preceding::a[1]</value>
+      <webElementGuid>abbc1bac-73ad-4369-b84d-fb716bd2dad6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='See more'])[1]/preceding::a[1]</value>
+      <webElementGuid>4d89c2e5-95b2-4dc9-bc6d-d5e0b0738950</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'https://accounts.google.com/SignOutOptions?hl=en&amp;continue=https://www.google.com/&amp;ec=GBRAmgQ')]</value>
+      <webElementGuid>ba0049ed-ab2f-41c1-97e5-47844d183c71</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/a</value>
+      <webElementGuid>0c73f0b4-466e-4172-a564-c4a0b6144ee1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://accounts.google.com/SignOutOptions?hl=en&amp;continue=https://www.google.com/&amp;ec=GBRAmgQ']</value>
+      <webElementGuid>561e281b-baf4-48cc-8cc5-f3ab8c2359dc</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

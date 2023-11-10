@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Orange HRM Login (D07)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>075e47fa-24fc-4973-89d7-df409cdbb5a7</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>06808279-a423-4fa6-883c-a7d3927af778</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Day 06 - Training Day/TestData1</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>06808279-a423-4fa6-883c-a7d3927af778</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>username</value>
+      <variableId>81117ede-1fea-447d-809b-98a2ebab0c85</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>06808279-a423-4fa6-883c-a7d3927af778</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>password</value>
+      <variableId>be7142e3-38b4-4b50-93ce-56449fe5d3f6</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Admin'</defaultValue>
+      <description></description>
+      <id>81117ede-1fea-447d-809b-98a2ebab0c85</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'hUKwJTbofgPU9eVlw/CnDQ=='</defaultValue>
+      <description></description>
+      <id>be7142e3-38b4-4b50-93ce-56449fe5d3f6</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

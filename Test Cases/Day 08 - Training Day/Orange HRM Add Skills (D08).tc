@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Orange HRM Add Skills (D08)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5166b936-8103-4a5a-b383-5177c884cb95</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>62976d74-269d-4063-8dee-3a89fc32bb37</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Day 06 - Training Day/TestData1</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>62976d74-269d-4063-8dee-3a89fc32bb37</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>jobTitle</value>
+      <variableId>6d7bc3e4-0a1f-4578-8a7d-9bb122322ab2</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>62976d74-269d-4063-8dee-3a89fc32bb37</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>jobDescription</value>
+      <variableId>226d9b5e-70c5-4d1e-a48a-10be40da5265</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>62976d74-269d-4063-8dee-3a89fc32bb37</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>note</value>
+      <variableId>bfe9034f-4c7f-4a72-92ad-5e82ec32d37a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>25103ddf-973a-440f-8d1e-b1ed10a60de5</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6d7bc3e4-0a1f-4578-8a7d-9bb122322ab2</id>
+      <masked>false</masked>
+      <name>jobTitle</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>226d9b5e-70c5-4d1e-a48a-10be40da5265</id>
+      <masked>false</masked>
+      <name>jobDescription</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>bfe9034f-4c7f-4a72-92ad-5e82ec32d37a</id>
+      <masked>false</masked>
+      <name>note</name>
+   </variable>
+   <variable>
+      <defaultValue>'Skill C'</defaultValue>
+      <description></description>
+      <id>25103ddf-973a-440f-8d1e-b1ed10a60de5</id>
+      <masked>false</masked>
+      <name>skill</name>
+   </variable>
+</TestCaseEntity>

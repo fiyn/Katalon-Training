@@ -99,6 +99,26 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Orange Website/Orange Day 07 - Exercise 3/Page_OrangeHRM/Page_OrangeHRM/input_To_oxd-input oxd-input--focus oxd-tim_794c11",
+      "brokenLocator": "//div[@id\u003d\u0027app\u0027]/div/div[2]/div[2]/div/div/form/div[2]/div/div[2]/div/div[2]/div/div[2]/div/input",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Orange Website/Orange Day 07 - Exercise 3/Page_OrangeHRM/Page_OrangeHRM/input_To_oxd-input oxd-input--focus oxd-tim_794c11_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Orange Website/Orange Day 07 - Exercise 3/Page_OrangeHRM/Page_OrangeHRM/div_AMPM",
+      "brokenLocator": "//div[@id\u003d\u0027app\u0027]/div/div[2]/div[2]/div/div/form/div[2]/div/div[2]/div/div[2]/div/div[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027To\u0027])[1]/following::div[4]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Orange Website/Orange Day 07 - Exercise 3/Page_OrangeHRM/Page_OrangeHRM/div_AMPM_neighbor.png"
     }
   ]
 }

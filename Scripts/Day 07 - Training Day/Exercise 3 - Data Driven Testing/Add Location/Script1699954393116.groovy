@@ -15,7 +15,10 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.By as By
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
+import org.openqa.selenium.WebDriver as WebDriver
 
 WebUI.openBrowser('')
 
@@ -52,14 +55,22 @@ WebUI.setText(findTestObject('Orange Website/Orange Day 07 - Exercise 3/Page_Ora
 WebUI.setText(findTestObject('Orange Website/Orange Day 07 - Exercise 3/Page_OrangeHRM/Add Location/Page_OrangeHRM/input_Phone'), 
     '0192200145')
 
-WebUI.click(findTestObject('Orange Website/Orange Day 07 - Exercise 3/Page_OrangeHRM/Add Location/Page_OrangeHRM/div_Country'))
+WebDriver driver = DriverFactory.getDriverConfigurationProvider()
+
+List<WebElements> locations = driver.findElements(By.xpath("//*[@class='oxd-select-option']"))
+
+println(locations.size())
+
+WebUI.click(findTestObject('Orange Website/Orange Day 07 - Exercise 3/Page_OrangeHRM/Add Location/Page_OrangeHRM/div_Country'), 
+    FailureHandling.STOP_ON_FAILURE)
 
 WebUI.selectOptionByLabel(findTestObject('Orange Website/Orange Day 07 - Exercise 3/Page_OrangeHRM/Add Location/Page_OrangeHRM/div_Country'), 
-    'Malaysia', false)
+    'Malaysia', false, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.waitForJQueryLoad(0)
 
-WebUI.click(findTestObject('Orange Website/Orange Day 07 - Exercise 3/Page_OrangeHRM/Add Location/Page_OrangeHRM/div_Malaysia'))
+WebUI.click(findTestObject('Orange Website/Orange Day 07 - Exercise 3/Page_OrangeHRM/Add Location/Page_OrangeHRM/div_Malaysia'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.setText(findTestObject('Orange Website/Orange Day 07 - Exercise 3/Page_OrangeHRM/Add Location/Page_OrangeHRM/input_Fax'), 
     '0333333333')
